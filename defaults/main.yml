@@ -57,7 +57,7 @@ paperless_ngx_conf_proxy_ssl_header:
 paperless_ngx_conf_redis_prefix: ""
 paperless_ngx_conf_social_auto_signup: false
 paperless_ngx_conf_socialaccount_allow_signups: true
-paperless_ngx_conf_socialaccount_providers: "{}"
+paperless_ngx_conf_socialaccount_providers:
 paperless_ngx_conf_supervisord_working_dir:
 paperless_ngx_conf_trusted_proxies: ""
 paperless_ngx_conf_use_x_forward_host: false

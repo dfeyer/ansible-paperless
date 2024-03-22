@@ -104,8 +104,8 @@
       role_var: "{{ paperless_ngx_conf_socialaccount_allow_signups }}"
       since_version: '2.5.0'
     - pngx_var: PAPERLESS_SOCIALACCOUNT_PROVIDERS
-      role_var: "{{ paperless_ngx_conf_socialaccount_providers }}"
       since_version: '2.5.0'
+      role_var: "{{ paperless_ngx_conf_socialaccount_providers | to_json }}"
     - pngx_var: PAPERLESS_SUPERVISORD_WORKING_DIR
       role_var: "{{ paperless_ngx_conf_supervisord_working_dir }}"
       since_version: '2.5.0'
